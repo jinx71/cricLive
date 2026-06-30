@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useQuery } from '@tanstack/react-query';
+import { useQuery } from 'react-query';
 import { fetchPointsTable } from '../api/cricket';
 import Card from '../components/Card';
 import Spinner from '../components/Spinner';

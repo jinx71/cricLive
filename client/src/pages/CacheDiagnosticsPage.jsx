@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from '@tanstack/react-query';
+import { useQuery } from 'react-query';
 import { toast } from 'react-toastify';
 import { fetchCacheStats } from '../api/cricket';
 import { del } from '../api/client';

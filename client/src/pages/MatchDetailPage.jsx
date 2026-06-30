@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useQuery } from '@tanstack/react-query';
+import { useQuery } from 'react-query';
 import { toast } from 'react-toastify';
 import { fetchMatch } from '../api/cricket';
 import { apiToggleFollowMatch } from '../api/auth';

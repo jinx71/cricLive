@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { useQuery } from '@tanstack/react-query';
+import { useQuery } from 'react-query';
 import { fetchLive, fetchUpcoming, fetchFinished } from '../api/cricket';
 import Tabs from '../components/Tabs';
 import MatchCard from '../components/MatchCard';

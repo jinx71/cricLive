@@ -40,7 +40,7 @@ The client polls naively (every 20s for live scores) — and that's the point. T
 - **React 17.0.2** + **react-dom 17.0.2**
 - **Create React App 5.0.1** (`react-scripts@5`)
 - **react-router-dom 6.3.x**
-- **@tanstack/react-query 3.39.x** — server-state, polling, cache invalidation
+- **react-query 3.39.x** — server-state, polling, cache invalidation
 - **axios 0.27.2**
 - **Tailwind CSS 3.1.x** + PostCSS + Autoprefixer
 - **dayjs**, **react-toastify**

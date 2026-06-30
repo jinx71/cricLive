@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { useQuery } from '@tanstack/react-query';
+import { useQuery } from 'react-query';
 import { toast } from 'react-toastify';
 import { useAuth } from '../context/AuthContext';
 import { fetchLive, fetchUpcoming, fetchFinished } from '../api/cricket';

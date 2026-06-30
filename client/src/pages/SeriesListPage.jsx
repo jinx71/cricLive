@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { useQuery } from '@tanstack/react-query';
+import { useQuery } from 'react-query';
 import { fetchSeriesList } from '../api/cricket';
 import Card from '../components/Card';
 import Badge from '../components/Badge';
